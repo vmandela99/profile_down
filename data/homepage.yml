@@ -56,13 +56,12 @@ about:
   title: "Who am I?"
   content: 
     <p class="lead">
-    <strong>I love helping data scientists.</strong> My passion is training. But, when I am not making new courses
-    or building software, I enjoy vacationing with my family and friends. 
+    <strong>I love understanding business challenges.</strong> My passion is designing workable solutions to day to day real life problems that has progressive impact. 
     </p>
     <p class="lead">
-    <strong>My area of focus</strong> is applying data science to business. 
-    I create value for companies by understanding the financial
-    cost of problems and delivering a return-on-investment with my solutions. 
+    <strong>My area of focus</strong> is simplifying business problems through development of friendly efficient data tools. 
+    I create value for companies and clients by designing solutions that
+    ensure return-on-investment. 
     I enjoy learning, working with stakeholders, and making better decisions with data.
     </p>
   button:
@@ -70,8 +69,8 @@ about:
     btnText: "About Me"
     URL: "https://www.linkedin.com/vmandela99/"
   image:
-    x: "img/who-am-i/user-picture-2.jpg"
-    _2x: "img/who-am-i/user-picture-2.jpg"
+    x: "img/who-am-i/pic.jpg"
+    _2x: "img/who-am-i/pic.jpg"
 
 # experience
 experience:
@@ -105,17 +104,17 @@ education:
   enable: true
   title: "Education"
   items:
-    - university: "Penn State University"
-      year: "2014-2015"
-      degree: "Master of Business Administration (MBA)"
+    - university: "University of Nairobi"
+      year: "2019-2022"
+      degree: "Master of Statistics (MSc)"
 
-    - university: "University of Pittsburgh"
-      year: "2008-2010"
-      degree: "Master of Industrial Engineering"
+    - university: "University of Nairobi"
+      year: "2012-2015"
+      degree: "Bachelor of Economics and Statistics"
       
-    - university: "Penn State University"
-      year: "2002-2006"
-      degree: "Bachelor of Mechanical Engineering"
+    - university: "Data camp onmine Campus"
+      year: "2020 - 2021"
+      degree: "Data Science Using R"
 
 
 
@@ -213,26 +212,26 @@ testimonial:
 # contact
 contact:
   enable: true
-  title: "Contact Matt"
+  title: "Contact Vick"
     
   image:
-    x: "img/who-am-i/user-picture-2.jpg"
-    _2x: "img/who-am-i/user-picture-2.jpg"
+    x: "img/who-am-i/pic.jpg"
+    _2x: "img/who-am-i/pic.jpg"
     
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
-    btnAction: 'mailto:your-email@gmail.com'
+    btnAction: 'mailto:vmandela99@gmail.com'
     
   phone:
     title: "Phone Number"
     number: "--"
   email:
     title: "Email"
-    email: '<a href="mailto:your-email@gmail.com">your-email@gmail.com</a>'
+    email: '<a href="mailto:vmandela99@gmail.com">vmandela99@gmail.com</a>'
   address:
     title: "Address"
-    address: "--"
+    address: "Nrb, Kenya"
   
 
 # newsletter
