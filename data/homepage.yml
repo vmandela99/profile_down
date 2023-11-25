@@ -8,8 +8,8 @@ showcase:
   subtitle: "Data Scientist"
   description: "Victor is the data to insights leveraging enthusiast, who has a keen eye in resolving challenges by developing super simple to understand, efficient and highly effective analysis tools."
   image:
-    x: "img/showcase/data-science.gif"
-    _2x: "img/showcase/data-science.gif"
+    x: "img/showcase/simple.jpg"
+    _2x: "img/showcase/simple.jpg"
   imageMobile:
     x: "img/showcase/data-science.gif"
     _2x: "img/showcase/data-science.gif"
@@ -76,7 +76,7 @@ about:
 experience:
   enable: true
   title: "Experience"
-  description: "Over 15+ years of experience working with companies from all over the world. I design & develop data science products to help businesses increase profitability and improve customer experience."
+  description: "Over 6+ years of experience working with companies from across diverse fields. I design & develop data science products to help businesses increase profitability and improve customer experience."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
@@ -87,18 +87,26 @@ experience:
     URL: "#"
 
   items:
-    - title: "Director of Product Engineering & Market Development"
-      company: "Bonney Forge"
-      duration: "Jan 2017 - Aug 2018"
+    - title: "Research Analyst"
+      company: "Gro Intelligence ltd"
+      duration: "Aug 2021 - Feb 2023"
 
-    - title: "Manager of Sales Engineering"
-      company: "Bonney Forge"
-      duration: "Mar 2014 - Jan 2017"
+    - title: "Senior R Programmer"
+      company: "Blue Marble ltd"
+      duration: "Jul 2021 - Aug 2021"
+      
+    - title: "RShinyApps Programmer"
+      company: "Xetova ltd"
+      duration: "October 2021 - Jul 2021"
 
-    - title: "Manager of Product Engineering"
-      company: "Bonney Forge"
-      duration: "Nov 2011 - Mar 2014"
-
+    - title: "Research Assistant"
+      company: "Population Council"
+      duration: "Sep 2019 - Dec 2019"
+      
+    - title: "Business Analyst"
+      company: "Population Council"
+      duration: "Nov 2016 - Dec 2018"
+      
 # education
 education:
   enable: true
@@ -112,7 +120,7 @@ education:
       year: "2012-2015"
       degree: "Bachelor of Economics and Statistics"
       
-    - university: "Data camp onmine Campus"
+    - university: "Data camp online Campus"
       year: "2020 - 2021"
       degree: "Data Science Using R"
 
@@ -156,63 +164,73 @@ client_and_work:
       alt: "Ztos"
 
   works:
+    - title: "Pharmaceutical teal based shinyapp"
+      description: "This application helps pharmaceutical clinical trial reporting outside of trial reporting setting."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://victor-mandela.shinyapps.io/vic_adsl_app/"
+      image:
+        x: "img/works/robo-advisor.jpg"
+        _2x: "img/works/robo-advisor.jpg"
+      is_even: true
+      
+
+    - title: "Crop Yield Model"
+      description: "This application helps look at the crop-yields in different countries from 1961 to 2018. Crop Yields is in tonnes per hectare."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://victormandela.netlify.app/project/crop-yield-shiny-app-for-all-countries-from-1961-to-2018/"
+      image:
+        x: "img/works/radity-finance.jpg"
+        _2x: "img/works/radity-finance.jpg"
+      is_even: false
+
     - title: "Sales Demand Forecast Application"
       description: "This application helps Marketing & Sales identify trends in product demand. The application is built in my Shiny Predictive Dashboards Course using Machine Learning."
       button:
         icon: "icon-arrow-right"
         btnText: "Launch Application"
-        URL: "https://business-science.shinyapps.io/sales_dashboard_demand_forecast/"
+        URL: "https://victor-mandela.shinyapps.io/sales_dashboard2/"
       image:
         x: "img/works/app_sales_demand_forecast.jpg"
         _2x: "img/works/app_sales_demand_forecast.jpg"
       is_even: true
 
-    - title: "Product Price Recommendation"
-      description: "This application helps Marketing & R&D Teams determine product gaps and price new products to fill the gaps using machine learning. The application is built in my Shiny Predictive Dashboards Course using Machine Learning."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Launch Application"
-        URL: "https://business-science.shinyapps.io/cannondale_price_prediction_app/"
-      image:
-        x: "img/works/app_cannondale_price_prediction.jpg"
-        _2x: "img/works/app_cannondale_price_prediction.jpg"
-      is_even: false
-
-    
-
-# testimonial
-testimonial:
-  enable: true
-  title: "Testimonials"
-  items:
-  
-    - name: "Justin Kurland, PhD"
-      position: "Lead Data Scientist, Northwestern Mutual"
-      content: "In less than 6 months after starting my first Business Science Course with Matt I had fully transitioned into a role as a lead data scientist and my life is better for it!"
-      image:
-        x: "img/testimonials/justin.jpg"
-        _2x: "img/testimonials/justin.jpg"
-        
-    - name: "Chris Selig"
-      position: "Data Scientist"
-      content: "Because of all the R courses Matt Dancho has provided, I landed my first Data Scientist role. Setting up shiny dashboards in AWS was extremely helpful during my interview."
-      image:
-        x: "img/testimonials/chris.jpg"
-        _2x: "img/testimonials/chris.jpg"
-
-    
-
-    - name: "Mohana Krishna Chittoor"
-      position: "Lead Data Scientist, Money View"
-      content: "After your entry into my life, I got a 10% pay raise and then after another 6-months of 26%, and in just another 2-months a 40% hike. I can grab a job wherever I want."
-      image:
-        x: "img/testimonials/mohana.jpg"
-        _2x: "img/testimonials/mohana.jpg"
+# # testimonial
+# testimonial:
+#   enable: true
+#   title: "Testimonials"
+#   items:
+#   
+#     - name: "Justin Kurland, PhD"
+#       position: "Lead Data Scientist, Northwestern Mutual"
+#       content: "In less than 6 months after starting my first Business Science Course with Matt I had fully transitioned into a role as a lead data scientist and my life is better for it!"
+#       image:
+#         x: "img/testimonials/justin.jpg"
+#         _2x: "img/testimonials/justin.jpg"
+#         
+#     - name: "Chris Selig"
+#       position: "Data Scientist"
+#       content: "Because of all the R courses Matt Dancho has provided, I landed my first Data Scientist role. Setting up shiny dashboards in AWS was extremely helpful during my interview."
+#       image:
+#         x: "img/testimonials/chris.jpg"
+#         _2x: "img/testimonials/chris.jpg"
+# 
+#     
+# 
+#     - name: "Mohana Krishna Chittoor"
+#       position: "Lead Data Scientist, Money View"
+#       content: "After your entry into my life, I got a 10% pay raise and then after another 6-months of 26%, and in just another 2-months a 40% hike. I can grab a job wherever I want."
+#       image:
+#         x: "img/testimonials/mohana.jpg"
+#         _2x: "img/testimonials/mohana.jpg"
 
 # contact
 contact:
   enable: true
-  title: "Contact Vick"
+  title: "Contact Mandela"
     
   image:
     x: "img/who-am-i/pic.jpg"
